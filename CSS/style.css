@@ -1,0 +1,859 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|family=Gotu:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
+
+body {
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+
+/* ----------------------------------------------- Navigation Start --- */
+
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 2px;
+  background-color: rgba(255, 255, 255, .4)!important
+}
+
+.navbar-brand img{
+  height: 32px;
+  border-radius: 50%;
+}
+
+.navbar-nav li{
+  padding-right: 11px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: 12px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #008080;
+}
+
+
+
+/* ----------------------------------------------- Navigation End --- */
+
+/* ----------------------------------------------- Landing Page Start --- */
+
+.home-img {
+  height: 100vh;
+  background: url(../images/portugal.jpg) no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.opacity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+
+.caption h1 {
+  font-size: 50px;
+  font-weight: 500;
+  display: block;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 10px;
+  text-align: center !important;
+}
+
+hr {
+  width: 60%;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.caption h3 {
+  font-size: 25px;
+  font-family: "Gotu", sans-serif;
+  font-weight: 300;
+  text-align: center !important;
+  padding-top: 10px;
+  margin-bottom: 60px;
+}
+
+.about-section .btn {
+  display: inline-block;
+  letter-spacing: 2px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-lg {
+  font-weight: bold;
+  border-radius: 23px;
+  width: 160px;
+}
+
+.btn-light {
+  color: white;
+  background-color: #008B8B;
+  border-color: #008B8B;
+}
+
+.btn:hover {
+  background-color:white;
+  color: #008B8B;
+  border: 1px solid white;
+}
+
+
+/* ----------------------------------------------- Landing Page End --- */
+
+/* ----------------------------------------------- Social Media Start --- */
+
+.social-links ul {
+  padding-right: 40px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background-color:white;
+  color: #008B8B;
+  border: 1px solid white;
+}
+
+/* ----------------------------------------------- Social Media End --- */
+
+
+
+
+
+
+/* ----------------------- About Page --------------------------- */
+
+.landing .about-wrap .about-img {
+  height: 100vh;
+  background: url(../images/beach.jpg) no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.about-section {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 20%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+
+.about-section h1 {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.about-section .about-hr {
+  width: 15%;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: auto;
+  border-width: .5px;
+  border-color: white;
+  position: absolute;
+}
+
+.about-section .box {
+  width: 550px;
+  height: 270px;
+  border: 2px solid white;
+  border-top: transparent;
+  border-left: transparent;
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
+
+.about-section .about-p {
+  width: 600px;
+  height: 200px;
+  padding-left: 120px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.about-section .btn {
+  margin-top: 60px;
+  margin-left: 120px;
+}
+
+.about-section .btn {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+
+
+/* ----------------------- Features Page --------------------------- */
+
+.landing .features-img {
+  height: 100vh;
+  background: url(../images/arco.jpg) no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.features-section {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 20%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+
+.features-section h1 {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.features-section .features-hr {
+  width: 15%;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: auto;
+  border-width: .5px;
+  border-color: white;
+  position: absolute;
+}
+
+.features-section .circle-left {
+  padding-top: 30px;
+  width: 33%;
+  float: left;
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  border-style: solid;
+  background-color: white;
+  border-width: 1px;
+  border-radius: 50%;
+  margin-left: 100px;
+  float: left;
+  padding: 5px;
+  
+}
+
+.features-section .tour-bg {
+  background: url("../images/looking.jpg") no-repeat center center;
+  height: 100%;
+  border-radius: 50%;
+  background-size: 300px;
+}
+
+.features-section .heading-left {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  float: left;
+  margin-left: 60px;
+  top: 72%;
+  left: 15%;
+}
+
+.features-section .fa-hiking {
+  padding-left: 10px;
+  color: white;
+}
+
+div div p {
+  height: 100px;
+  width: 150px;
+}
+
+.features-section .description {
+  color: white;
+    font-size: 13px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    float: left;
+    top: 72%;
+    left: 15%;
+    text-align: center;
+    word-spacing: 2px;
+}
+
+.features-section .circle-mid {
+  padding-top: 30px;
+  width: 33%;
+  float: left;
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  border-style: solid;
+  background-color: white;
+  border-width: 1px;
+  border-radius: 50%;
+  float: left;
+  padding: 5px;
+}
+
+.features-section .bed-bg {
+  background: url("../images/bed.jpg") no-repeat center bottom;
+  height: 100%;
+  border-radius: 50%;
+  background-size: 300px;
+}
+
+.features-section .heading-mid {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  float: left;
+  margin-left: 40px;
+  top: 72%;
+  left: 15%;
+}
+
+.features-section .fa-bed{
+  padding-left: 10px;
+}
+
+.features-section .circle-right {
+  padding-top: 30px;
+  width: 33%;
+  float: left;
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  border-style: solid;
+  background-color: white;
+  border-width: 1px;
+  border-radius: 50%;
+  margin-left: 100px;
+  margin-right: 100px;
+  float: right;
+  padding: 5px;
+  position: absolute;
+  right: 0%;
+}
+
+.features-section .kids-bg {
+  background: url("../images/kids.jpg") no-repeat;
+  height: 100%;
+  border-radius: 50%;
+  background-size: 300px;
+}
+
+.features-section .heading-right {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  float: right;
+  margin-right: 70px;
+  top: 72%;
+  left: 15%;
+}
+
+.features-section .fa-snowboarding{
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.features-section .hover:hover {
+  background-color: #008080;
+  border-color: white;
+
+  transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+/* ----------------------- Contact Page --------------------------- */
+
+.landing .contact-img {
+  height: 100vh;
+  background: url(../images/boat.jpg) no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.contact {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 20%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+
+.contact-section h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-section .contact-hr {
+  width: 15%;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: auto;
+  border-width: .5px;
+  border-color: white;
+  position: absolute;
+}
+
+.phone {
+  padding-left: 40px;
+}
+
+.phone div ul li i{
+  padding-right: 5px;
+  padding-left: 10px;
+}
+
+
+
+.contact .btn {
+  margin-top: 60px;
+}
+
+.contact .btn {
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* ----------------------- Form --------------------------- */
+
+.center-form {
+  display: block;
+  text-align: center;
+  padding-top: 30px;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+.center-form .form-control {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #008080;
+    background-color: rgb(255, 255, 255);
+    background-clip: padding-box;
+    border: 1px solid #008080;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+::placeholder { 
+  color: #008080 !important;
+  opacity: 1;
+}
+
+.center-form .col .btn{
+  margin-top: 40px;
+  transition: .15s ease-in-out
+}
+
+/* ----------------------- Media Queries --------------------------- */
+
+@media (max-width: 576px) {
+    .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .navbar ul {
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 576px) {
+    .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+  }
+  
+}
+
+@media (max-width:768px) {
+  .caption h1{
+    font-size: 20px;
+  }
+
+  .caption h3{
+    font-size: 15px;
+  }
+
+  .caption{
+    top: 30%;
+    width: 90%;
+    left: 20px;
+  }
+  .navbar-nav{
+    flex-direction: initial;
+  }
+
+  .about-section .about-hr{
+    width: 30%;
+  }
+
+  .landing .features-img {
+    height: 250vh;
+  }
+
+  .features-section .features-hr{
+    width: 40%;
+  }
+
+  .features-section .circle-left{
+    margin: 0 50px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+  }
+
+  .features-section .circle-mid{
+    margin: 0 50px;
+    margin-top: 90px;
+    margin-bottom: 60px;
+  }
+
+  .features-section .circle-right{
+    position: relative;
+    margin: 0 50px;
+    float: left;
+    margin-top: 90px;
+    margin-bottom: 30px;
+  }
+
+  .phone{
+    margin-top: 0px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+    text-align: center;
+    margin-right: 50px;
+  }
+
+  .about-section .box{
+    width: 0px;
+    height: 240px;
+  }
+
+  .about-section .about-p{
+    width: 350px;
+    height: 300px;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 120px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  .about-section .btn{
+    margin-top: 0px;
+  }
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+  
+.caption h1 {
+    font-size: 40px;
+}
+
+.caption h3{
+  font-size: 25px;
+}
+
+.phone {
+    margin-top: 0px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+    text-align: center;
+    margin-right: 50px;
+    padding-bottom: 30px;
+}
+
+.about-section .about-p{
+  width: 600px;
+  font-size: 20px;
+}
+}
+
+
+@media (max-width:1200px) {
+  .social-links .wrapper{
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    text-align: center;
+    margin-right: 50px;
+  }
+
+  .social-links .media{
+    display: inline-block;
+    align-items: center;
+  }
+
+  .social-links ul {
+    padding-right: 0px;
+    margin: 0 auto;
+}
+}
+
+
+
+@media screen and (max-device-width:640px) and (orientation: landscape){
+  .caption h1{
+    font-size: 25px;
+  }
+  .caption h3{
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .btn-lg{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-device-width:812px) and (max-device-width:824px) and (orientation: landscape){
+  .caption h1{
+    font-size: 30px
+  }
+  .caption h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .btn-lg{
+    font-size: 1rem;
+  }
+
+  .phone{
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-device-width:640px) and (max-device-width:992px) and (orientation: landscape){
+  .caption h1{
+    font-size: 30px;
+  }
+
+  .caption h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .features-section .circle-left,
+  .features-section .circle-mid{
+    margin: 0 50px;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 30px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .features-section .circle-right{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    float: right;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .features-section .tour-bg,
+  .features-section .bed-bg,
+  .features-section .kids-bg{
+    background-size: 200px;
+  }
+
+  .features-section .heading-left,
+  .features-section .heading-mid{
+    padding-top: 10px;
+    font-size: 15px;
+    margin-left: 30px;
+  }
+
+  .features-section .heading-right{
+    padding-top: 10px;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-right: 40px;
+  }
+
+  .features-section .description{
+    font-size: 10px;
+  }
+
+  div .contact h3{
+    font-size: 1rem;
+  }
+
+  .center-form{
+    padding-top: 10px;
+    max-width: 70%;
+  }
+
+  .phone{
+    margin-top: 0px;
+    margin-bottom: -10px;
+  }
+
+  .center-form .col .btn{
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-device-width:1000px) and (orientation: landscape){
+  .about-section .about-p{
+    width: 600px;
+    height: 135px;
+  }
+
+  .about-section .box {
+    width: 530px;
+    height: 140px;
+}
+
+  .about-section .btn{
+    margin-left: 50px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-device-width:1000px) and (orientation: landscape){
+  .features-section .circle-mid {
+    margin-left: 12px;
+}
+
+  .features-section .circle-left{
+    margin-left: 50px;
+  }
+
+  .features-section .circle-right{
+    margin-right: 50px;
+  }
+}
+
+@media screen and (min-device-width:1366px) and (orientation: landscape){
+  .features-section .circle-left{
+    margin-left: 100px;
+  }
+
+  .features-section .circle-mid{
+    margin-left: 130px;
+  }
+
+  .features-section .circle-right{
+    margin-right: 100px;
+  }
+}
