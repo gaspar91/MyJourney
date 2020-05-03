@@ -107,19 +107,15 @@ You can also find the wireframes in here (place link here).
     1. Hover over the social media icon on the bottom right corner and verify that they change color individualy.
     2. Try to click on any social media icon and verify that it opens a new page.
 
-The website has been checked for responsiveness on a multitude of screen sizes from PC to portable devices, such as tablets and mobile phones. 
+- The website has been checked for responsiveness on a multitude of screen sizes from PC to portable devices, such as tablets and mobile phones. 
+    - As far as vertical screens all features were found to be fully responsive and fit well within each screen size. 
+    - On the other hand, horizontal screens didn't respond so well and some of the features don't fit properly.
 
-As far as vertical screens all features were found to be fully responsive and fit well within each screen size. 
+- Another problem I found was that, in some screens, the background image doesn't cover the whole screen. I tried changing the settings but not much happens. Sometimes when I would refresh the page it would fill the screen, but after some time it would be missing a part of the image.
 
-On the other hand, horizontal screens didn't respond so well and some of the features don't fit properly.
+- One more problem I found was that the Features page takes a while to load.
 
-Another problem I found was that, in some screens, the background image doesn't cover the whole screen. I tried changing the settings but not much happens. Sometimes when I would refresh the page it would fill the screen, but after some time it would be missing a part of the image.
-
-One more problem I found was that the Features page takes a while to load.
-
-All HTML code was run through the [W3C HTML Validator](https://validator.w3.org/) and returned no errors.
-
-
+- All HTML code was run through the [W3C HTML Validator](https://validator.w3.org/) and returned no errors.
 
 ## Deployment
 
