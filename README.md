@@ -2,7 +2,11 @@
 
 Welcome to my very first website!
 
-This website was build as a development milestone project for the completion of the user centric frontend module and it's part of the learning material for Code Institute's Fullstack Web Developer program.
+This website was build as a **development milestone project** for the completion of the user centric frontend module and it's part of the learning material for Code Institute's Fullstack Web Developer program.
+
+A live **desktop demo** can be found [here](https://gaspar91.github.io/MyJourney/). 
+
+The **source code** for this project can be found [here](https://github.com/gaspar91/MyJourney).
 
 # Table of contents
 
@@ -12,10 +16,11 @@ This website was build as a development milestone project for the completion of 
 - [Design Process](#design-process)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
+- [Observations](#observations)
 - [Deployment](#deployment)
 - [Credits](#credits)
 
-## UX
+# UX
 
 This website was build as a source of turism in Portugal in order to help travellers and locals to enjoy what the country has to offer.
 
@@ -25,7 +30,7 @@ The company wants to provide a positive and fun experience, and it's aware of th
 
 There are also many activities, for all ages, that the company provides in order to keep the experience enjoyable for everyone.
 
-## User Stories
+# User Stories
 
 ### User Story One:
 
@@ -51,12 +56,13 @@ As someone who doesn't like to waist time with giving to much detail, filling up
 
 It is also important that there is access to a phone number or email address in order for me to obtain more information.
 
-## Features
+# Features
 
 ### Existing Features
 
 - All the pages contain a navigation bar with the logo in the top corner left and the pages on the top corner right.
 - All the pages contain a footer with social media links.
+
 - In order to ensure that the user first knows what the website has to offer the homepage contains a “Start” button, In the middle of the screen, that leads to the “Features” page.
 - The “About” page provides a paragraph with information about what the website refers to and it contains a “Read More” button that will lead to the “Features” page.
 - Once In the “Features” page the user can browse and click on one of the three images with a tittle and a small description that will take them to the "contact” page if they wish to do it.
@@ -66,6 +72,7 @@ It is also important that there is access to a phone number or email address in 
 
 - In future versions of the website I would like to implement some video content and an image gallery in order to make the website more appealing and help the user see what the company can provide in order to incentivate the user to register.
 - I would also like to make it possible for when in a page, the name of the page, in the navigation bar, to be in a different color in order to let the user know in which page it is.
+
 - I would also like to implement a keyword search box in the nav bar so that if user's wish to search for something by name they can locate something as quick as possible.
 - I would also like to create a banner about new deals that are or will be available to make the user be aware of what the company can offer.
 - I would also like to create a comment section so users can see how satisfied the previous users were with the company and the services provided.
@@ -73,13 +80,13 @@ It is also important that there is access to a phone number or email address in 
 - I would also like it to be possible for when the user click on the phone number or the email, it would call or open the mail app in order to allow an easier access of information to the user.
 - I believe a Popup Chat Window would be a good way to make the website more efficient if the user needs imediate information and doesn't want to wait for an email or doesn't want to make a phone call.
 
-## Design Process
+# Design Process
 
 You can find the model that I made by hand here (place link here).
 
 You can also find the wireframes in here (place link here).
 
-## Technologies Used
+# Technologies Used
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
   - The project uses HTML5 to construct the pages within the application.
@@ -88,20 +95,20 @@ You can also find the wireframes in here (place link here).
 - [Bootstrap (ver 4.4.1)](https://getbootstrap.com/)
   - The project uses the Bootstrap 4 grid and components in order to achieve a responsive layout and styling.
 
-## Testing
+# Testing
 
-1. Logo:
+**1. Logo:**
 
    1. Go to a page that is not the homepage.
    2. Try to click on the logo and verify that it leads you to the homepage.
 
-2. Navigation Bar Pages:
+**2. Navigation Bar Pages:**
 
    1. Go to the navigation bar.
    2. Hover over the pages and verify that they change color individualy.
    3. Try to click on them and verify that you are able to go to the page you selected.
 
-3. Contact form:
+**3. Contact form:**
 
    1. Go to the "Contact" page.
    2. Try to submit the empty form and verify that an error message about the required fields appears.
@@ -110,15 +117,17 @@ You can also find the wireframes in here (place link here).
    5. Try to fill in the email address field without an @ in the email and verify that an error message appears explaining that an @ is missing and it suggests you should include one in your email.
    6. Try to click on a field and verify that a shadow appears around it.
 
-4. Feature Images:
+**4. Feature Images:**
 
    1. Go to the Features page.
    2. Hover over the images and tittle of the image and verify that the image circle changes color.
    3. Try to click on the image or tittle and verify that you are able to go to the contact page.
 
-5. Soacial Media Icons:
+**5. Social Media Icons:**
    1. Hover over the social media icon on the bottom right corner and verify that they change color individualy.
    2. Try to click on any social media icon and verify that it opens a new page.
+
+# Observations
 
 - The website has been checked for responsiveness on a multitude of screen sizes from PC to portable devices, such as tablets and mobile phones.
 
@@ -131,7 +140,7 @@ You can also find the wireframes in here (place link here).
 
 - All HTML code was run through the [W3C HTML Validator](https://validator.w3.org/) and returned no errors.
 
-## Deployment
+# Deployment
 
 The website is hosted via [GitHub](https://github.com/), with the source code being available on [my repository](https://github.com/gaspar91/MyJourney).
 
@@ -166,7 +175,7 @@ The website is hosted via [GitHub](https://github.com/), with the source code be
 
     2. In the [project repository](https://github.com/gaspar91/MyJourney), click the small green button reading **gitpod** which is placed next to the **clone or download** button.
 
-## Credits
+# Credits
 
 ### Content 
 
