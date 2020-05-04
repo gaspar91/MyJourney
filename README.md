@@ -165,3 +165,27 @@ The website is hosted via [GitHub](https://github.com/), with the source code be
     1. Make sure that you are logged in to your [GitHub account](https://github.com/).
 
     2. In the [project repository](https://github.com/gaspar91/MyJourney), click the small green button reading **gitpod** which is placed next to the **clone or download** button.
+
+## Credits
+
+### Content 
+
+ - The code for the **navigation bar** was copied from [Drew Ryan](https://www.youtube.com/watch?v=V_lAhqLXT9A)
+ - The code for the **social media footer** was copied from [Code Institute's Love Running Project](https://github.com/Code-Institute-Org/love-running-rebuild)
+ - The code for the **circles with images** in the features page was copied from [Code Institute's Love Running Project](https://github.com/Code-Institute-Org/love-running-rebuild)
+
+### Media
+
+The photos used in this website were obtained from [Unsplash](https://unsplash.com/)
+
+### Acknowledgements
+
+I received inspiration for this project from:
+
+- [Code Institute](https://codeinstitute.net/)
+- [Behance](https://www.behance.net/)
+- [ww3Schools](https://www.w3schools.com/)
+- [CSS Tricks](https://css-tricks.com/)
+- [Drew Ryan](https://www.youtube.com/watch?v=V_lAhqLXT9A) 
+
+
