@@ -8,12 +8,12 @@ A live **desktop demo** can be found [here](https://gaspar91.github.io/MyJourney
 
 The **source code** for this project can be found [here](https://github.com/gaspar91/MyJourney).
 
-# Table of contents
+# Table of Contents
 
 - [UX](#ux)
+- [Design Process](#design-process)
 - [User Stories](#user-stories)
 - [Features](#features)
-- [Design Process](#design-process)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
 - [Observations](#observations)
@@ -29,6 +29,10 @@ The website offers users the opportunity to discover the country though their se
 The company wants to provide a positive and fun experience, and it's aware of the users needs, so it provides guided tours in order to take turists to unique and popular places to visit and after a long day a bedroom is provided so turists can rest and they will have breakfast served to them every morning as included in the services.
 
 There are also many activities, for all ages, that the company provides in order to keep the experience enjoyable for everyone.
+
+# Design Process
+
+You'll be able to view the pc, mobile and tablet wireframes for this project in the **Wireframes** folder, located within the **Static** folder in the  [Github project repository](https://github.com/gaspar91/MyJourney).
 
 # User Stories
 
@@ -79,12 +83,6 @@ It is also important that there is access to a phone number or email address in 
 - I would also like to place a map with all our locations in order to provide tourists with an easier access to where to find the company.
 - I would also like it to be possible for when the user click on the phone number or the email, it would call or open the mail app in order to allow an easier access of information to the user.
 - I believe a Popup Chat Window would be a good way to make the website more efficient if the user needs imediate information and doesn't want to wait for an email or doesn't want to make a phone call.
-
-# Design Process
-
-You can find the model that I made by hand here (place link here).
-
-You can also find the wireframes in here (place link here).
 
 # Technologies Used
 
